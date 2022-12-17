@@ -92,7 +92,7 @@ function draw() {
       }
 
       if (pipe[i].x == 0) {
-      	// score.play()
+      	 score.play()
       	
        document.getElementById('score').innerHTML = 'Score: ' + (scor += 1)
       	
@@ -134,7 +134,7 @@ function draw() {
 
 function moveUp() {
 	speedY = -5
-	// fly.play()
+	 fly.play()
 }
 function reload() {
 	
